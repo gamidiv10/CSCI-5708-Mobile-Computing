@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab_6</string>
+    <string name="hint_course">Course...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Course not saved because it is empty.</string>
+</resources>

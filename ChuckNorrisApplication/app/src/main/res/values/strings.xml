@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChuckNorrisApplication</string>
+    <string name="title_txt">Chuck Norris Facts</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/cardview_default_elevation"
+    android:paddingLeft="@dimen/cardview_default_elevation"
+    android:paddingRight="@dimen/cardview_default_elevation"
+    android:paddingTop="@dimen/cardview_default_elevation">
+
+    <!--Card View to display the joke and the icon of chuck norris-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/card_view_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <!--Chuck Norris Image display section-->
+            <ImageView
+                android:id="@+id/image_chuck_norris"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/chuck_norris_icon"/>
+
+            <!--Text view to display joke-->
+            <TextView
+                android:id="@+id/text_view_joke"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@id/image_chuck_norris"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
